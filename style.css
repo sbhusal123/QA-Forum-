@@ -1,0 +1,66 @@
+#navigation
+{
+    background: indigo;
+    height:60px;
+    border-radius: 8px;
+}
+
+ul li a
+{
+    color: teal;
+    display: block;
+    height:inherit;
+}
+ul li a:hover
+{
+    text-decoration: none;
+}
+ul li
+{
+    margin-top:12px;
+    list-style: none;
+    float:left;
+    font-size: 18px;
+    margin-right:10px;
+    padding:10px;
+    width:100px;
+    text-align: center;
+}
+ul li:hover
+{
+    cursor: pointer;
+     background: powderblue;
+     border-radius: 8px;
+     transition:all 0.3s ease-in;
+}
+ul li:hover > a
+{
+    color: indigo;
+}
+ul li ul li
+{
+    margin-top:12px;
+    float:none;
+    margin-bottom: -12px;
+    width:100px;
+    background: navy;
+    margin-left:-50px;
+    display:none;
+}
+ul li ul li a
+{
+    color: #afd9ee;
+    
+}
+.col-xs-9
+{
+    z-index: 3;
+    position:absolute;
+}
+.jcarousel img {
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+}
+
+
